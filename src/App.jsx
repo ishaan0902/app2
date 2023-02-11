@@ -44,10 +44,10 @@ function App() {
       {login && (
         <>
           <button onClick={() => setOption(false)}>TATA 1MG Solutions Private Ltd.</button>
-          <button onClick={() => setOption(true)}>LFS Heaathhcare Private Limited </button>
+          <button onClick={() => setOption(true)}>LFS Healthhcare Private Limited </button>
 
           {!option && <Page URL={URL1} login={login} entityType="TATA 1MG Solutions Private Ltd." />}
-          {option && <Page URL={URL2} login={login} entityType="LFS Heaathhcare Private Limited " />}
+          {option && <Page URL={URL2} login={login} entityType="LFS Healthhcare Private Limited " />}
         </>
       )}
     </div>
